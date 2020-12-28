@@ -45,3 +45,7 @@ if __name__ == "__main__":
     print("Client: Executing the same client code with a proxy:")
     proxy = Proxy(real_subject)
     client_code(proxy)
+
+
+# test
+a = 12
