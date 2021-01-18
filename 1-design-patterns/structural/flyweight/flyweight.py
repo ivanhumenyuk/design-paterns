@@ -62,6 +62,8 @@ if __name__ == "__main__":
 
     factory.list_flyweights()
 
+    print(factory._flyweights)
+
     add_car_to_police_database(
         factory, "CL234IR", "James Doe", "BMW", "M5", "red")
 

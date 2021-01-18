@@ -58,7 +58,7 @@ class Component2(BaseComponent):
 
 
 if __name__ == "__main__":
-    # client
+    # client``
     c1 = Component1()
     c2 = Component2()
     mediator = ConcreteMediator(c1, c2)
